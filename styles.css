@@ -1,4 +1,10 @@
+
 body {
+    background: hsla(352, 96%, 56%, 1);
+    background: linear-gradient(360deg, hsla(352, 96%, 56%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(352, 96%, 56%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(352, 96%, 56%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FA233E", endColorstr="#6E78FF", GradientType=1 );
     display: flex;
     flex-direction: column;
 }
