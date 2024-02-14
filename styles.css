@@ -15,3 +15,12 @@ body {
     justify-content: space-evenly;
     flex: 4 1 auto;
 }
+
+.artists {
+    width: 33vw;
+    height: 100vh;
+}
+
+.portrait {
+    width: 33vw;
+}
