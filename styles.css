@@ -16,11 +16,16 @@ body {
     flex: 4 1 auto;
 }
 
-.artists {
+.artists, .albums, .songs {
     width: 33vw;
     height: 100vh;
+    text-align: center;
 }
 
 .portrait {
     width: 33vw;
+}
+
+.title {
+    text-align: left;
 }
