@@ -24,14 +24,14 @@ body {
     overflow: hidden;
 }
 
-.artists, .albums, .songs {
+.units {
     width: 33vw;
     height: 100vh;
     text-align: center;
     overflow-y: scroll;
 }
 
-.artists::-webkit-scrollbar, .albums::-webkit-scrollbar, .songs::-webkit-scrollbar { 
+.units::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
 }
 
