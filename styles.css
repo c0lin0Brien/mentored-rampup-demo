@@ -1,5 +1,9 @@
-
+@font-face {
+    font-family: SFPro;
+    src: url(SFPRODISPLAYMEDIUM.OTF);
+}
 body {
+    font-family: SFPro;
     background: hsla(352, 96%, 56%, 1);
     background: linear-gradient(360deg, hsla(352, 96%, 56%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FA233E", endColorstr="#6E78FF", GradientType=1 );
