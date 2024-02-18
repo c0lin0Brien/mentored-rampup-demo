@@ -4,6 +4,7 @@
 }
 body {
     font-family: SFPro;
+    color: #F1F1F1;
     background: hsla(352, 96%, 56%, 1);
     background: linear-gradient(360deg, hsla(352, 96%, 56%, 1) 0%, hsla(236, 100%, 72%, 1) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FA233E", endColorstr="#6E78FF", GradientType=1 );
@@ -12,6 +13,7 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: clip;
+    text-align: center;
 }
 
 .header {
@@ -30,7 +32,7 @@ body {
 
 .units {
     width: 33vw;
-    height: 100vh;
+    height: 89vh;
     text-align: center;
     overflow-y: scroll;
 }
